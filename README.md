@@ -1,7 +1,7 @@
 # Webshop Automation Playwright Framework
 
 ## Overview
-This project is an automated testing framework for a E-commerece application(https://demowebshop.tricentis.com/) using Playwright With JavaScript. It follows the Page Object Model (POM) design pattern for maintainability and scalability, and integrates with Allure for advanced reporting.
+This project is an automated testing framework for a E-commerce application(https://demowebshop.tricentis.com/) using Playwright With JavaScript. It follows the Page Object Model (POM) design pattern for maintainability and scalability, and integrates with Allure for advanced reporting.
 
 ## Features
 - Page Object Model structure for reusable and organized code
