@@ -1,0 +1,3 @@
+Number of category in Electronics: 2
+Number of products in Cell phone category: 3
+Number of products after sorting in Desktops: 3

@@ -1,0 +1,23 @@
+{
+  "name": "webshopautomationplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "RunallTests": "npx playwright test",
+    "Runalltestswithallure": "npx playwright test && allure generate ./allure-results --clean -o ./allure-report && allure open ./allure-report",
+    "RunTestinHeadedmode": "npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.3.3",
+    "dotenv": "^17.2.1"
+  }
+}

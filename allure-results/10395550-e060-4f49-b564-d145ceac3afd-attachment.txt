@@ -1,0 +1,3 @@
+Number of products in Books category: 6
+Number of products after sorting : 6
+Number of products after price filter: 0
