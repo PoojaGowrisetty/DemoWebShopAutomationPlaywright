@@ -1,0 +1,34 @@
+trigger:
+  - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '18.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm install
+    displayName: 'Install dependencies'
+
+  - script: |
+      npx playwright install
+    displayName: 'Install Playwright browsers'
+
+  - script: |
+      npx playwright test
+    displayName: 'Run Playwright tests'
+
+  - script: |
+      npx allure generate allure-results --clean -o allure-report
+    displayName: 'Generate Allure report'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: 'allure-report'
+      ArtifactName: 'AllureReport'
+      publishLocation: 'Container'
+    displayName: 'Publish Allure report artifact'
