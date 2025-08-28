@@ -1,2 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","17100","TC1_End to End purchase multiple categories from Register to Checkout","chromium","Thu Aug 28 16:26:41 CEST 2025","passed","Thu Aug 28 16:26:58 CEST 2025","End to end Worflow Tests","TCs_WithEndtoEndWorkFlow.spec.js","",""
+"","13020","TC3_Purchasing Apparel & Shoes without login User","chromium","Thu Aug 28 19:10:45 CEST 2025","passed","Thu Aug 28 19:10:58 CEST 2025","End to end Worflow Tests","TCs_WithEndtoEndWorkFlow.spec.js","",""
+"","13481","TC2_Purchasing Books with login User","chromium","Thu Aug 28 19:10:45 CEST 2025","passed","Thu Aug 28 19:10:58 CEST 2025","End to end Worflow Tests","TCs_WithEndtoEndWorkFlow.spec.js","",""
+"","19543","TC1_End to End purchase multiple categories from Register to Checkout","chromium","Thu Aug 28 19:10:45 CEST 2025","passed","Thu Aug 28 19:11:04 CEST 2025","End to end Worflow Tests","TCs_WithEndtoEndWorkFlow.spec.js","",""

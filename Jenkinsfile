@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    triggers {
+        cron('0 5 * * 1') // Every Monday at 5 AM
+    }
+
     environment {
         NODE_VERSION = "20"
         TEST_DIR = "./tests"
@@ -48,7 +52,7 @@ pipeline {
                     reportFiles: 'index.html',
                     reportName: 'Allure Report',
                     keepAll: true,
-                    allowMissing: true
+                    allowMissing: false
                 ])
             }
         }
