@@ -1,8 +1,0 @@
-Number of products in gift cards category: 6
-Verifying product: Computing and Internet
-Verifying product: Copy of Computing and Internet EX
-Verifying product: Fiction
-Verifying product: Fiction EX
-Verifying product: Health Book
-Verifying product: Science
-All products verified successfully.

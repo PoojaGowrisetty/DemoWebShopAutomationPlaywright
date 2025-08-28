@@ -1,4 +1,0 @@
-Number of Computers category: 3
-Number of products in Desktops category: 6
-Number of products after sorting in Desktops: 6
-Number of products after price filter in Desktops: 3

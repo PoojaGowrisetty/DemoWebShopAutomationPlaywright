@@ -27,7 +27,7 @@ test.describe('End to end Worflow Tests', () => {
         await basePage.goto();
     });
 
-    test("TC1_End to End purchase multiple categories from Register to Checkout", async ({}) => {
+    test.only("TC1_End to End purchase multiple categories from Register to Checkout", async ({}) => {
         //Register and Login
         await homePage.clickRegister();
         expect(basePage.getPageURL()).toContain('/register');
