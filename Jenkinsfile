@@ -14,17 +14,6 @@ pipeline {
     }
 
     stages {
-        stage('Prepare Environment') {
-            steps {
-                echo "Setting up Node.js..."
-                bat """
-                    curl -sL https://deb.nodesource.com/setup_20.x | bash -
-                    apt-get install -y nodejs
-                    node -v
-                    npm -v
-                """
-            }
-        }
 
         stage('Install Dependencies') {
             steps {
