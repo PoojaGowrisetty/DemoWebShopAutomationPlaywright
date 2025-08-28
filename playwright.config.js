@@ -41,7 +41,8 @@ export default defineConfig({
       args: ['--start-maximized'],
     },
     viewport: null, // prevents override
-    headless: false,
+    headless: true,
+    
 
   },
 

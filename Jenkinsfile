@@ -36,7 +36,7 @@ pipeline {
         stage('Generate Allure Report') {
             steps {
                 echo "Generating Allure report..."
-                sh "npx allure generate ${ALLURE_RESULTS} --clean -o ${ALLURE_REPORT}"
+                bat "npx allure generate ${ALLURE_RESULTS} --clean -o ${ALLURE_REPORT}"
             }
         }
 
